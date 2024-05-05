@@ -1,0 +1,158 @@
+/* styles.css */
+body {
+    font-family: "Geagu" sans-serif;
+}
+  
+/* 내비게이션 바 스타일 */
+.navber {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  /* 내비게이션 링크 스타일 */
+.navbar a {
+    float: right;
+    display: flex;
+    color: #000000;
+    text-align: center; /* 텍스트 가운데 정렬 */
+    padding: 7px 17px; /* 위아래 왼쪽 오른쪽 여백 설정 */
+    text-decoration: none; /* 밑줄 없앰 */
+}
+.navbar a:hover {
+    background-color: #000000; 
+    color: rgb(246, 255, 0);
+}
+#text {
+    font-weight: normal;
+    transition: font-weight 0.1s ease;
+}
+
+#text:hover {
+    font-weight: bold;
+}
+
+/*취미와 꿈*/
+
+.hobby,
+.dream {
+  width: 200px; 
+  display: inline-block;
+  border: 1px solid #cccccc00;
+  background-color: #ffffff94;
+  padding: 10px;
+  margin: 5px;
+}
+ 
+  
+/*시간표 스타일*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease; /* 배경색 애니메이션 효과 */
+}
+td:hover {
+    background-color: #e0e0e0; /* 마우스 호버시 배경색 변경 */
+}
+td:hover {
+    color: rgb(85, 85, 85); /*글자 애니메이션 색*/
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #757575; /*시간표 선 색상*/
+    padding: 8px;
+    text-align: center;
+}
+    th {
+    background-color: #e2e2e2; /*맨 윗 배경 색*/
+}
+.wep {
+    background-color: #f2dada;
+}
+.computer {
+    background-color: #ffdee3; 
+}
+.py {
+    background-color: #bcffe4; 
+}
+.math {
+    background-color: #ffe7ae; 
+}
+.practice {
+    background-color: #c8d4ff; 
+}
+.solving {
+    background-color: #c7e2ff; 
+}
+.write {
+    background-color: #ffffca; 
+}
+.MM {
+    background-color: #caffc7; 
+}
+.wep:hover, .py:hover {
+    background-color: #e9a5ff; /* 특별 수업 호버시 배경색 변경 */
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'Geagu', sans-serif;
+    margin: 40px;
+    background-color:rgb(173, 139, 115);
+    color: rgb(0, 0, 0);
+}
+.header, .section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.title, .section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.intro, .section {
+    background-color: rgb(255, 251, 233);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.hobbie, .section {
+    background-color: rgb(227, 202, 165);    ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.like, .section {
+    background-color: rgb(206, 171, 147);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    float: none;
+    display: flex;
+    color: #000000;
+}
+h2 {
+    
+    color: #333;
+}
+p {
+    line-height: 1.6;
+}
